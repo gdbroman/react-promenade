@@ -3,9 +3,11 @@
 <br/>
 
 <div align="center">
-  <h1>
-    <u>React Promenade</u>
-  </h1>
+  <a href="https://github.com/gdbroman/react-promenade">
+    <h1>
+      <u>React Promenade</u>
+    </h1>
+  </a>
   <p>
     <b>A React hook for crafting multi-step user flows</b>
   </p>
