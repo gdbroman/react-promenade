@@ -1,13 +1,9 @@
 <img alt="React Promenade – A React hook for crafting multi-step forms" src="./assets/cover.png" />
 
-<br/>
-
 <div align="center">
   <h1>
-    <a href="https://github.com/gdbroman/react-promenade">
-      <u>
-        React Promenade
-      </u>
+    <a href="https://github.com/gdbroman/react-promenade" style="text-decoration: underline">
+      React Promenade
     </a>
   </h1>
   <p>
