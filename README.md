@@ -1,4 +1,4 @@
-<img alt="React Promenade – React hooks for building multi-step forms" src="./assets/cover.png" />
+<img alt="React Promenade – A React hook for building multi-step forms" src="./assets/cover.png" />
 
 <br/>
 
@@ -7,11 +7,11 @@
     <u>React Promenade</u>
   </h1>
   <p>
-    <b>React hooks for building multi-step forms</b>
+    <b>A React hook for building multi-step forms</b>
   </p>
   <p align="center">
-    <a href="#quick-start"><strong>Quick Start</strong></a> ·
-    <a href="./docs/DOCUMENTATION.md"><strong>Full Documentation</strong></a> ·
+    <a href="#quick-start"><strong>Start Here</strong></a> ·
+    <a href="./docs/DOCUMENTATION.md"><strong>Documentation</strong></a> ·
     <a href="#author"><strong>Author</strong></a>
   </p>
 </div>
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-Boost sign-ups and form completions with react-promenade by breaking big forms into smaller, manageable steps.
+Boost conversion rates by breaking big forms into smaller steps.
 
 **View full documentation and examples under [./docs](./docs)**.
 
