@@ -6,9 +6,6 @@ Boost sign-ups and form completions with react-promenade by breaking big forms i
 
 **View full documentation and examples on [react-promenade.vercel.app](https://react-promenade.vercel.app)**
 
-
----
-
 ## Quick Start
 
 ```tsx
