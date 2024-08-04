@@ -54,4 +54,4 @@ function Signup() {
 
 ## Author
 
-* Gus [@gdbroman](https://github.com/gdbroman)
+* Gus [@gdbroman](https://x.com/gdbroman) (reach out for questions or feedback)
