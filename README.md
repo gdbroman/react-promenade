@@ -39,7 +39,7 @@
 ```tsx
 import { usePromenade } from 'react-promenade'
 
-function Signup() {
+function UserFlow() {
   return (
 <PromenadeProvider
   isNextDisabled={false}
