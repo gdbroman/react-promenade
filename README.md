@@ -30,7 +30,7 @@
 
 ## Introduction
 
-Boost conversion rates by breaking big forms into multi-step user flows.
+*Boost completion rates by breaking big forms into multi-step user flows!*
 
 **View full documentation and examples under [./docs](./docs)**.
 
