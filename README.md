@@ -12,6 +12,14 @@
     <b>A React hook for crafting multi-step user flows</b>
   </p>
   <p align="center">
+    <a href="https://twitter.com/gdbroman">
+      <img src="https://img.shields.io/twitter/follow/gdbroman?style=flat&label=gdbroman&logo=x" alt="Gus Twitter follower count" />
+    </a>
+    <a href="https://github.com/gdbroman/react-promenade">
+      <img src="https://img.shields.io/github/stars/gdbroman/react-promenade?style=flat&label=gdbroman%2Freact-promenade" alt="react-promenade repo star count" />
+    </a>
+  </p>
+  <p align="center">
     <a href="#quick-start"><strong>Start Here</strong></a> ·
     <a href="./docs/DOCUMENTATION.md"><strong>Documentation</strong></a> ·
     <a href="#author"><strong>Author</strong></a>
