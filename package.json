@@ -18,5 +18,8 @@
     "@changesets/cli": "^2.27.7",
     "@types/react": "^18.3.3",
     "tsup": "^8.2.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
