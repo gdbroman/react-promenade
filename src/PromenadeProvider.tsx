@@ -15,14 +15,14 @@ type PromenadeProviderProps = {
   children: ReactNode;
   /**
    * Whether the next button should be disabled
-   * @default false
+   * @default () => false
    */
-  isNextDisabled?: boolean;
+  isNextDisabled?: (currentStep: number) => boolean;
   /**
    * Whether the back button should be disabled
-   * @default false
+   * @default () => false
    */
-  isBackDisabled?: boolean;
+  isBackDisabled?: (currentStep: number) => boolean;
   /**
    * Callback for when the user clicks the back button
    */
@@ -35,8 +35,8 @@ type PromenadeProviderProps = {
 
 export const PromenadeProvider = ({
   children,
-  isNextDisabled = false,
-  isBackDisabled = false,
+  isNextDisabled = () => false,
+  isBackDisabled = () => false,
   onBack,
   onNext
 }: PromenadeProviderProps) => {
@@ -51,7 +51,7 @@ export const PromenadeProvider = ({
   const [currentStep, setCurrentStep] = useState(0);
 
   const goForward = useCallback(() => {
-    if (isNextDisabled) return;
+    if (isNextDisabled(currentStep)) return;
 
     if (currentStep < totalNumberOfSteps - 1) {
       onNext?.(currentStep, totalNumberOfSteps);
@@ -60,7 +60,7 @@ export const PromenadeProvider = ({
   }, [isNextDisabled, currentStep, totalNumberOfSteps, onNext]);
 
   const goBack = useCallback(() => {
-    if (isBackDisabled) return;
+    if (isBackDisabled(currentStep)) return;
 
     if (currentStep > 0) {
       onBack?.(currentStep, totalNumberOfSteps);
@@ -78,8 +78,8 @@ export const PromenadeProvider = ({
         currentStep,
         totalNumberOfSteps,
 
-        isNextDisabled,
-        isBackDisabled,
+        isNextDisabled: isNextDisabled(currentStep),
+        isBackDisabled: isBackDisabled(currentStep),
 
         goForward,
         goBack,
