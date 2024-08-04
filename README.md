@@ -1,4 +1,4 @@
-<img alt="React Promenade – A React hook for crafting multi-step user flows" src="./assets/cover.png" />
+<img alt="React Promenade – React components for crafting multi-step user flows" src="./assets/cover.png" />
 
 <div align="center">
   <a href="https://github.com/gdbroman/react-promenade" style="text-decoration: underline">
@@ -9,7 +9,7 @@
     </h1>
   </a>
   <p>
-    <b>A React hook for crafting multi-step user flows</b>
+    <b>React components for crafting multi-step user flows</b>
   </p>
   <p align="center">
     <a href="https://x.com/gdbroman">
@@ -40,13 +40,28 @@
 import { usePromenade } from 'react-promenade'
 
 function Signup() {
-  const { goBack, goForward } = usePromenade()
+  return (
+<PromenadeProvider
+  isNextDisabled={false}
+  isBackDisabled={false}
+  onBack={(currentStep, totalNumberOfSteps) => { console.log('back clicked') }}
+  onNext={(currentStep, totalNumberOfSteps) => { console.log('next clicked') }}
+>
+  <PromenadeStep index={0}><StepOne /></PromenadeStep>
+  <PromenadeStep index={1}><StepTwo /></PromenadeStep>
+  <PromenadeStep index={2}><StepThree /></PromenadeStep>
+</PromenadeProvider>
+  )
+}
+
+function StepOne() {
+  const { isNextDisabled, isBackDisabled, goForward, goBackward } = usePromenade()
 
   return (
     <div>
-      <h1>Step 2</h1>
-      <button onClick={goBack}>Back</button>
-      <button onClick={goForward}>Next</button>
+      <h1>Step 1</h1>
+      <button onClick={goForward} disabled={isNextDisabled}>Next</button>
+      <button onClick={goBackward} disabled={isBackDisabled}>Back</button>
     </div>
   )
 }
