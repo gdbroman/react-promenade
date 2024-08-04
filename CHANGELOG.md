@@ -1,5 +1,11 @@
 # react-promenade
 
+## 0.3.0
+
+### Minor Changes
+
+- 7ba6e53: only upload dist directoyry
+
 ## 0.2.1
 
 ### Patch Changes
