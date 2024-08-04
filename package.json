@@ -1,0 +1,21 @@
+{
+  "name": "react-promenade",
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "@types/react": "^18.3.3",
+    "tsup": "^8.2.4"
+  }
+}
