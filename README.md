@@ -1,10 +1,28 @@
-# react-promenade
+<img alt="React Promenade – React hooks for building multi-step forms" src="./assets/cover.png" />
+
+<br/>
+
+<div align="center">
+  <h1>
+    <u>React Promenade</u>
+  </h1>
+  <p>
+    <b>React hooks for building multi-step forms</b>
+  </p>
+  <p align="center">
+    <a href="#quick-start"><strong>Quick Start</strong></a> ·
+    <a href="./docs/DOCUMENTATION.md"><strong>Full Documentation</strong></a> ·
+    <a href="#author"><strong>Author</strong></a>
+  </p>
+</div>
+
+<br/>
+
+## Introduction
 
 Boost sign-ups and form completions with react-promenade by breaking big forms into smaller, manageable steps.
 
----
-
-**View full documentation and examples on [react-promenade.vercel.app](https://react-promenade.vercel.app)**
+**View full documentation and examples under [./docs](./docs)**.
 
 ## Quick Start
 
@@ -23,3 +41,7 @@ function Signup() {
   )
 }
 ```
+
+## Author
+
+* Gus [@gdbroman](https://github.com/gdbroman)
