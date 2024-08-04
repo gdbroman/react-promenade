@@ -1,7 +1,7 @@
 <img alt="React Promenade – A React hook for crafting multi-step user flows" src="./assets/cover.png" />
 
 <div align="center">
-  <a target="_blank" href="https://github.com/gdbroman/react-promenade" style="text-decoration: underline">
+  <a href="https://github.com/gdbroman/react-promenade" style="text-decoration: underline">
     <h1>
       <u>
         React Promenade
@@ -12,7 +12,7 @@
     <b>A React hook for crafting multi-step user flows</b>
   </p>
   <p align="center">
-    <a target="_blank" href="https://x.com/gdbroman">
+    <a href="https://x.com/gdbroman">
       <img src="https://img.shields.io/twitter/follow/gdbroman?style=flat&label=gdbroman&logo=x" alt="Gus Twitter follower count" />
     </a>
     <a href="https://github.com/gdbroman/react-promenade">
@@ -54,4 +54,4 @@ function Signup() {
 
 ## Author
 
-* Gus <a target="_blank" href="https://x.com/gdbroman">@gdbroman</a> (reach out for questions or feedback)
+* Gus [@gdbroman](https://x.com/gdbroman) (reach out for questions or feedback)
