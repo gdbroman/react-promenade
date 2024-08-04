@@ -37,9 +37,9 @@
 ## Quick Start
 
 ```tsx
-import { usePromenade } from 'react-promenade'
+import { PromenadeProvider, PromenadeStep, usePromenade } from 'react-promenade';
 
-function UserFlow() {
+function Signup() {
   return (
 <PromenadeProvider
   isNextDisabled={false}
@@ -47,14 +47,14 @@ function UserFlow() {
   onBack={(currentStep, totalNumberOfSteps) => { console.log('back clicked') }}
   onNext={(currentStep, totalNumberOfSteps) => { console.log('next clicked') }}
 >
-  <PromenadeStep index={0}><StepOne /></PromenadeStep>
-  <PromenadeStep index={1}><StepTwo /></PromenadeStep>
-  <PromenadeStep index={2}><StepThree /></PromenadeStep>
+  <PromenadeStep index={0}><EmailStep /></PromenadeStep>
+  <PromenadeStep index={1}><AvatarStep /></PromenadeStep>
+  <PromenadeStep index={2}><FollowStep /></PromenadeStep>
 </PromenadeProvider>
   )
 }
 
-function StepOne() {
+function EmailStep() {
   const { isNextDisabled, isBackDisabled, goForward, goBackward } = usePromenade()
 
   return (
