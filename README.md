@@ -1,4 +1,4 @@
-<img alt="React Promenade – A React hook for building multi-step forms" src="./assets/cover.png" />
+<img alt="React Promenade – A React hook for crafting multi-step forms" src="./assets/cover.png" />
 
 <br/>
 
@@ -7,7 +7,7 @@
     <u>React Promenade</u>
   </h1>
   <p>
-    <b>A React hook for building multi-step forms</b>
+    <b>A React hook for crafting multi-step user flows</b>
   </p>
   <p align="center">
     <a href="#quick-start"><strong>Start Here</strong></a> ·
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-Boost conversion rates by breaking big forms into smaller steps.
+Boost conversion rates by breaking big forms into multi-step user flows.
 
 **View full documentation and examples under [./docs](./docs)**.
 
