@@ -32,7 +32,7 @@
 
 React Promenade is an unstyled component library that makes it easy to create multi-step user flows with step-by-step validation and navigation.
 
-### Why Multi-Step User Flows?
+## Why Multi-Step User Flows?
 
 Breaking big forms into multi-step user flows will almost always:
 
@@ -52,7 +52,7 @@ yarn add react-promenade
 bun add react-promenade
 ```
 
-## Quick Start
+## Example
 
 ```tsx
 import { PromenadeProvider, PromenadeStep, usePromenade } from 'react-promenade';
