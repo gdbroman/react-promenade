@@ -9,6 +9,10 @@ type PromenadeContextType = {
    */
   index: number;
   /**
+   * The total number of steps in the flow
+   */
+  stepCount: number;
+  /**
    * Whether the next button should be disabled
    * @default false
    */

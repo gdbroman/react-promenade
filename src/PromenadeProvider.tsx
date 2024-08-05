@@ -75,6 +75,7 @@ export const PromenadeProvider = ({
     <PromenadeContext.Provider
       value={{
         index,
+        stepCount,
 
         isNextDisabled: isNextDisabled(index),
         isBackDisabled: isBackDisabled(index),
