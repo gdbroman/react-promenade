@@ -20,7 +20,7 @@
     </a>
   </p>
   <p align="center">
-    <a href="#quick-start"><strong>Start Here</strong></a> ·
+    <a href="#installation"><strong>Installation</strong></a> ·
     <a href="./docs/DOCUMENTATION.md"><strong>Documentation</strong></a> ·
     <a href="#author"><strong>Author</strong></a>
   </p>
@@ -28,15 +28,17 @@
 
 <br/>
 
-## Why React Promenade?
+## Introduction
+
+React Promenade is an unstyled component library that makes it easy to create multi-step user flows with step-by-step validation and navigation.
+
+### Why Multi-Step User Flows?
 
 Breaking big forms into multi-step user flows will almost always:
 
 * **improve UX**
 * **increase user engagement**
 * **boost signups & completion rates**
-
-React Promenade is an unstyled component library that makes it easy to create multi-step user flows with step-by-step validation and navigation.
 
 ## Installation
 
