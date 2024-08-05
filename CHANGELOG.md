@@ -1,5 +1,11 @@
 # react-promenade
 
+## 0.4.2
+
+### Patch Changes
+
+- f3d7ad7: metadata-additions
+
 ## 0.4.1
 
 ### Patch Changes
