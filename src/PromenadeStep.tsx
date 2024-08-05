@@ -7,9 +7,9 @@ type PromenadeStepProps = {
 }
 
 export const PromenadeStep = ({ index, children }: PromenadeStepProps) => {
-  const { currentStep } = usePromenade()
+  const { index: currentIndex } = usePromenade()
 
-  if (currentStep !== index) return null
+  if (index !== currentIndex) return null
 
   return <div>{children}</div>;
 }

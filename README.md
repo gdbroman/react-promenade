@@ -42,10 +42,11 @@ import { PromenadeProvider, PromenadeStep, usePromenade } from 'react-promenade'
 function Signup() {
   return (
     <PromenadeProvider
-      isNextDisabled={(currentStep) => false}
-      isBackDisabled={(currentStep) => false}
-      onBack={(currentStep, totalNumberOfSteps) => { console.log('back clicked') }}
-      onNext={(currentStep, totalNumberOfSteps) => { console.log('next clicked') }}
+      stepCount={3}
+      isNextDisabled={(index) => false}
+      isBackDisabled={(index) => false}
+      onBack={(index) => { console.log('back clicked on step', index) }}
+      onNext={(index) => { console.log('next clicked on step', index) }}
     >
       <PromenadeStep index={0}><EmailStep /></PromenadeStep>
       <PromenadeStep index={1}><AvatarStep /></PromenadeStep>
