@@ -43,14 +43,14 @@ function Signup() {
   return (
     <PromenadeProvider
       stepCount={3}
-      isNextDisabled={(index) => { return false }}
       isBackDisabled={(index) => { return index === 0 }}
+      isNextDisabled={(index) => { return false }}
       onBack={(index) => { console.log('back clicked on step', index) }}
       onNext={(index) => { console.log('next clicked on step', index) }}
     >
       <PromenadeStep index={0}><EmailStep /></PromenadeStep>
       <PromenadeStep index={1}><AvatarStep /></PromenadeStep>
-      <PromenadeStep index={2}><FollowStep /></PromenadeStep>
+      <PromenadeStep index={2}><AboutMeStep /></PromenadeStep>
     </PromenadeProvider>
   )
 }
