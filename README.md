@@ -56,12 +56,12 @@ function Signup() {
 }
 
 function EmailStep() {
-  const { isBackDisabled, isNextDisabled, goBackward, goForward } = usePromenade()
+  const { isBackDisabled, isNextDisabled, goBack, goForward } = usePromenade()
 
   return (
     <div>
       <h1>Step 1</h1>
-      <button onClick={goBackward} disabled={isBackDisabled}>Back</button>
+      <button onClick={goBack} disabled={isBackDisabled}>Back</button>
       <button onClick={goForward} disabled={isNextDisabled}>Next</button>
     </div>
   )
