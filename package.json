@@ -21,5 +21,12 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "multi-step",
+    "form",
+    "user-flow"
   ]
 }
