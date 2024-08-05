@@ -1,5 +1,11 @@
 # react-promenade
 
+## 0.4.3
+
+### Patch Changes
+
+- 1fb5358: Package metadata
+
 ## 0.4.2
 
 ### Patch Changes
