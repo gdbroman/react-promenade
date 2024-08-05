@@ -1,5 +1,11 @@
 # react-promenade
 
+## 0.4.1
+
+### Patch Changes
+
+- baa33ec: Export stepcount
+
 ## 0.4.0
 
 ### Minor Changes
