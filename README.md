@@ -30,7 +30,7 @@
 
 ## Introduction
 
-*Boost completion rates by breaking big forms into multi-step user flows!*
+*React Promenade boosts completion rates by breaking big forms into multi-step user flows.*
 
 **View full documentation and examples under [./docs](./docs)**.
 
@@ -43,8 +43,8 @@ function Signup() {
   return (
     <PromenadeProvider
       stepCount={3}
-      isNextDisabled={(index) => false}
-      isBackDisabled={(index) => false}
+      isNextDisabled={(index) => { return false }}
+      isBackDisabled={(index) => { return index === 0 }}
       onBack={(index) => { console.log('back clicked on step', index) }}
       onNext={(index) => { console.log('next clicked on step', index) }}
     >
