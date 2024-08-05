@@ -1,5 +1,11 @@
 # react-promenade
 
+## 0.4.0
+
+### Minor Changes
+
+- 8ae68c1: Hardcode stepcount
+
 ## 0.3.0
 
 ### Minor Changes
