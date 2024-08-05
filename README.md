@@ -28,11 +28,27 @@
 
 <br/>
 
-## Introduction
+## Why React Promenade?
 
-*React Promenade boosts completion rates by breaking big forms into multi-step user flows.*
+Breaking big forms into multi-step user flows will almost always:
 
-**View full documentation and examples under [./docs](./docs)**.
+* **improve UX**
+* **increase user engagement**
+* **boost signups & completion rates**
+
+React Promenade is an unstyled component library that makes it easy to create multi-step user flows with step-by-step validation and navigation.
+
+## Installation
+
+```bash
+npm i react-promenade
+# or
+pnpm add react-promenade
+# or
+yarn add react-promenade
+# or
+bun add react-promenade
+```
 
 ## Quick Start
 
@@ -67,6 +83,8 @@ function EmailStep() {
   )
 }
 ```
+
+**View full documentation and examples under [./docs](./docs)**.
 
 ## Author
 
