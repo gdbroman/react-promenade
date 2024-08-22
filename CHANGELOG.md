@@ -1,5 +1,11 @@
 # react-promenade
 
+## 0.5.0
+
+### Minor Changes
+
+- 2fbe465: Correct peerDependencies in package.json
+
 ## 0.4.3
 
 ### Patch Changes
