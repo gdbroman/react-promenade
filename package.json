@@ -16,14 +16,8 @@
     "release": "pnpm run build && changeset publish",
     "lint": "tsc"
   },
-  "dependencies": {
-    "react": "^18.3.1",
-    "typescript": "^5.5.4"
-  },
-  "devDependencies": {
-    "@changesets/cli": "^2.27.7",
-    "@types/react": "^18.3.3",
-    "tsup": "^8.2.4"
+  "peerDependencies": {
+    "react": "^18"
   },
   "files": [
     "dist"
@@ -34,5 +28,11 @@
     "multi-step",
     "form",
     "user-flow"
-  ]
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "@types/react": "^18.3.4",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
 }
